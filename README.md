@@ -28,8 +28,6 @@ This project implements a Retrieval-Augmented Generation (RAG) system for financ
 ## 🛠️ Setup
 
 ```bash
-git clone https://github.com/yourusername/financial-rag-system.git
-cd financial-rag-system
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+git clone https://github.com/Shegun93/FinRAG.git
+cd FinRAG
 pip install -r requirements.txt
