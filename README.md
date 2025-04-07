@@ -25,6 +25,13 @@ This project implements a Retrieval-Augmented Generation (RAG) system for financ
 - 💡 Context-aware question answering
 - 🎚️ Automatic model selection based on GPU
 
+## Setup Instructions
+Prerequisites
+Python 3.9+
+GPU with sufficient VRAM (minimum 5GB recommended)
+Pinecone API key
+Hugging Face account (for Gemma model access)
+
 ## 🛠️ Setup
 
 ```bash
