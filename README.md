@@ -26,11 +26,11 @@ This project implements a Retrieval-Augmented Generation (RAG) system for financ
 - 🎚️ Automatic model selection based on GPU
 
 ## Setup Instructions
-Prerequisites
-Python 3.9+
-GPU with sufficient VRAM (minimum 5GB recommended)
-Pinecone API key
-Hugging Face account (for Gemma model access)
+- Prerequisites
+- Python 3.9+
+- GPU with sufficient VRAM (minimum 5GB recommended)
+- Pinecone API key
+- Hugging Face account (for Gemma model access)
 
 ## 🛠️ Setup
 
@@ -39,7 +39,6 @@ git clone https://github.com/Shegun93/FinRAG.git
 cd FinRAG
 pip install -r requirements.txt
 ```
-
 ## 🔑 Configuration
 
 Create a .env configuration file
@@ -58,44 +57,40 @@ query = "What was the operating profit increase from 2011-2012?"
 answer = ask(query)
 print(answer)
 ```
-The system will:
+## The system will:
+- Retrieve the most relevant document chunks
+- Generate accurate answers using the Gemma LLM
+- Display both the answer and the context used
 
-Retrieve the most relevant document chunks
+## Customization
+- Chunk size: Adjust the chunk_size parameter in the split_into_chunks function
+- Model selection: The system automatically selects the appropriate Gemma model based on available GPU memory
+- Temperature: Control answer creativity via the temperature parameter in the ask function
 
-Generate accurate answers using the Gemma LLM
+## Troubleshooting
+- GPU Memory Errors: If you encounter memory issues, try:
+- Using the 2B model instead of 7B
+- Enabling 4-bit quantization
+- Reducing the max_new_tokens parameter
 
-Display both the answer and the context used
-
-Customization
-Chunk size: Adjust the chunk_size parameter in the split_into_chunks function
-
-Model selection: The system automatically selects the appropriate Gemma model based on available GPU memory
-
-Temperature: Control answer creativity via the temperature parameter in the ask function
-
-Troubleshooting
-GPU Memory Errors: If you encounter memory issues, try:
-
-Using the 2B model instead of 7B
-
-Enabling 4-bit quantization
-
-Reducing the max_new_tokens parameter
-
-Pinecone Issues: Ensure your:
-
-API key is correct
-
-Index name is unique
-
-Region matches your Pinecone configuration
+## Pinecone Issues: Ensure your:
+- API key is correct
+- Index name is unique
+- Region matches your Pinecone configuration
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+**To use this:**
+1. Copy the entire markdown above
+2. Paste into a new `README.md` file in your repo
+3. The badge logos will render automatically on GitHub
+4. Customize the URLs and details as needed
+
+The badges use Shields.io formatting which GitHub renders natively - no image files required!
+
 Acknowledgments
 Pinecone for the vector database
-
 Hugging Face for the Transformers library and model hub
 
 Google for the Gemma models
