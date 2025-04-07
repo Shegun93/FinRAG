@@ -31,3 +31,11 @@ This project implements a Retrieval-Augmented Generation (RAG) system for financ
 git clone https://github.com/Shegun93/FinRAG.git
 cd FinRAG
 pip install -r requirements.txt
+
+## 🔑 Configuration
+
+Create a .env configuration file
+```bash
+PINECONE_API_KEY = "your-api-key"
+PINECONE_ENVIRONMENT="region"
+
