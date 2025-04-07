@@ -44,3 +44,10 @@ PINECONE_ENVIRONMENT="region"
 ```
 huggingface-cli login
 ```
+## Usage
+```
+# Example query
+query = "What was the operating profit increase from 2011-2012?"
+answer = ask(query)
+print(answer)
+```
