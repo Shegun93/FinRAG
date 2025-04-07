@@ -78,19 +78,10 @@ print(answer)
 - Index name is unique
 - Region matches your Pinecone configuration
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## License
+This project is licensed under the MIT License 
 
-**To use this:**
-1. Copy the entire markdown above
-2. Paste into a new `README.md` file in your repo
-3. The badge logos will render automatically on GitHub
-4. Customize the URLs and details as needed
-
-The badges use Shields.io formatting which GitHub renders natively - no image files required!
-
-Acknowledgments
-Pinecone for the vector database
-Hugging Face for the Transformers library and model hub
-
-Google for the Gemma models
+## Acknowledgments
+- Pinecone
+- Huggingface
+- Google for the Gemma models
