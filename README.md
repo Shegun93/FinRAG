@@ -51,3 +51,44 @@ query = "What was the operating profit increase from 2011-2012?"
 answer = ask(query)
 print(answer)
 ```
+The system will:
+
+Retrieve the most relevant document chunks
+
+Generate accurate answers using the Gemma LLM
+
+Display both the answer and the context used
+
+Customization
+Chunk size: Adjust the chunk_size parameter in the split_into_chunks function
+
+Model selection: The system automatically selects the appropriate Gemma model based on available GPU memory
+
+Temperature: Control answer creativity via the temperature parameter in the ask function
+
+Troubleshooting
+GPU Memory Errors: If you encounter memory issues, try:
+
+Using the 2B model instead of 7B
+
+Enabling 4-bit quantization
+
+Reducing the max_new_tokens parameter
+
+Pinecone Issues: Ensure your:
+
+API key is correct
+
+Index name is unique
+
+Region matches your Pinecone configuration
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Acknowledgments
+Pinecone for the vector database
+
+Hugging Face for the Transformers library and model hub
+
+Google for the Gemma models
