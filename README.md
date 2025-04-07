@@ -39,4 +39,8 @@ Create a .env configuration file
 ```bash
 PINECONE_API_KEY = "your-api-key"
 PINECONE_ENVIRONMENT="region"
-
+```
+## Authenticate Hugging Face:
+```
+huggingface-cli login
+```
