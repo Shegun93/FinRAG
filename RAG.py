@@ -7,7 +7,7 @@ from pinecone import Pinecone
 import streamlit as st
 import os
 import dotenv as load_env
-load_dotenv()
+#load_dotenv()
 
 use_quantization_config = True 
 device = "cuda" if torch.cuda.is_available() else "cpu"
