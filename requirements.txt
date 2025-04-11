@@ -1,0 +1,7 @@
+Flask==3.1.0
+pinecone==6.0.2
+python-dotenv==1.1.0
+sentence_transformers==2.5.1
+streamlit==1.42.0
+torch==2.3.1
+transformers==4.38.2
