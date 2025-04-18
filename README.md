@@ -37,6 +37,9 @@ This project implements a Retrieval-Augmented Generation (RAG) system for financ
 ```bash
 git clone https://github.com/Shegun93/FinRAG.git
 cd FinRAG
+```
+## Installing Dependencies
+```
 pip install -r requirements.txt
 ```
 ## 🔑 Configuration
