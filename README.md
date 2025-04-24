@@ -73,7 +73,7 @@ print(answer)
 ## Troubleshooting
 - GPU Memory Errors: If you encounter memory issues, try:
 - Using the 2B model instead of 7B
-- Enabling 4-bit quantization
+- Enabling
 - Reducing the max_new_tokens parameter
 
 ## Pinecone Issues: Ensure your:
