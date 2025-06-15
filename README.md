@@ -1,11 +1,11 @@
 # FinRAG
-# Financial RAG System with Pinecone and Gemma 💰🔍
+# Financial RAG System with Pinecone and Gemma 
 
 ## Overview
 
 This project implements a Retrieval-Augmented Generation (RAG) system for financial documents, combining vector search with a large language model to provide accurate answers to financial queries.
 
-## 🛠️ Technologies & Tools
+## Technologies & Tools
 
 | Category       | Technologies                                                                 |
 |----------------|-----------------------------------------------------------------------------|
@@ -17,13 +17,13 @@ This project implements a Retrieval-Augmented Generation (RAG) system for financ
 | **Framework**  | <img src="https://img.shields.io/badge/Hugging%20Face-FFD21F?logo=huggingface&logoColor=black" height="20"> |
 | **Data**       | <img src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white" height="20"> |
 
-## 🚀 Features
+## Features
 
-- 📄 Document processing and chunking
-- 🔢 Vector embedding generation
-- ⚡ Efficient vector storage/retrieval
-- 💡 Context-aware question answering
-- 🎚️ Automatic model selection based on GPU
+- Document processing and chunking
+- Vector embedding generation
+- Efficient vector storage/retrieval
+- Context-aware question answering
+- Automatic model selection based on GPU
 
 ## Setup Instructions
 - Prerequisites
@@ -32,7 +32,7 @@ This project implements a Retrieval-Augmented Generation (RAG) system for financ
 - Pinecone API key
 - Hugging Face account (for Gemma model access)
 
-## 🛠️ Setup
+## Setup
 
 ```bash
 git clone https://github.com/Shegun93/FinRAG.git
@@ -42,7 +42,7 @@ cd FinRAG
 ```
 pip install -r requirements.txt
 ```
-## 🔑 Configuration
+## Configuration
 
 Create a .env configuration file
 ```bash
