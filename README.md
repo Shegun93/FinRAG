@@ -20,7 +20,7 @@ This project implements a Retrieval-Augmented Generation (RAG) system for financ
 ## Features
 
 - Document processing and chunking
-- Vector embedding generation
+- Vector embedding generation.
 - Efficient vector storage/retrieval
 - Context-aware question answering
 - Automatic model selection based on GPU
