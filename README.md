@@ -23,7 +23,7 @@ This project implements a Retrieval-Augmented Generation (RAG) system for financ
 - Vector embedding generation.
 - Efficient vector storage/retrieval
 - Context-aware question answering
-- Automatic model selection based on GPU
+- Automatic model selection based on GPUs
 
 ## Setup Instructions
 - Prerequisites
