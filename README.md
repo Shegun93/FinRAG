@@ -44,7 +44,7 @@ pip install -r requirements.txt
 ```
 ## Configuration
 
-Create a .env configuration file
+Create a .env configuration files
 ```bash
 PINECONE_API_KEY = "your-api-key"
 PINECONE_ENVIRONMENT="region"
